@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/logo F.png" type="image/*">
+  <title>Supermarché</title>
+  <!--icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--AOS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!--Police-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <!--boostrap-->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="p-4 nav-style fixed-top navbar navbar-expand-lg bg-light-subtle">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo F.png" class="img-fluid" width="50px" alt=""> <span
+          class="text-primary fw-bold">Supermarché</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#about">A propos de nous</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#offres">Nos offres</a>
+          </li>
+        </ul>
+        <a href="#contact" class="btn btn-dark"><i class="fa fa-solid fa-phone"></i> Contactez-nous</a>
+
+      </div>
+    </div>
+  </nav>
+
+  <!--Section hero 1-->
+  <section class="hero mb-5 pt-5" data-aos="fade">
+    <div class="overlay"></div>
+    <div class="container position-relative">
+      <div class="row align-items-center">
+        <div class="col-md-5 pt-5 text-center text-md-start" data-aos="fade-up" data-aos-duration="1000">
+          <div class="container">
+            <i class="fa-brands fa-square-instagram fa-2x me-2"></i>
+            <i class="fa-brands fa-whatsapp fa-2x me-2"></i>
+            <i class="fa-brands fa-facebook fa-2x me-2"></i>
+            <i class="fa-brands fa-square-youtube fa-2x me-2"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+          </div>
+          <h1 class="h1 py-lg-3 playwrite" >Entreprise pour facilité vos achat
+          </h1>
+          <p >Nous sommes ravis de vous accueillir sur notre plateforme, dédiée
+            à vous offrir la meilleure expérience
+            d'achat de fruits et légumes en ligne. Voici pourquoi nous sommes convaincus que vous êtes au bon endroit :
+          </p>
+          <div class="nav">
+            <button type="button" class="btn btn-outline-light me-2"
+             ><i class="fa fa-regular fa-message"></i>
+              Chat</button>
+            <button type="button" class="btn btn-outline-light" ><i
+                class="fa fa-light fa-phone"></i>
+              Contactez-Nous</button>
+          </div>
+        </div>
+        <div class="col-md-7" data-aos="fade-right" data-aos-duration="1000">
+          <img src="img/hero 2.avif" class="img-fluid rounded-5" alt="" >
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--a propos de nous-->
+  <section class="mb-5 pt-5" id="about" data-aos="fade-up"  >
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-5">
+          <h2 class="fw-bold h4 text-start mb-4 playwrite">Qui somme nous</h2>
+          <div class="">
+            <p class="fw-semibold">Nous sommes passionnés par la qualité et la fraîcheur des fruits et légumes que nous
+              proposons. Notre engagement est de vous offrir une sélection exceptionnelle qui répond à vos besoins, que
+              ce soit pour votre consommation personnelle ou pour votre entreprise.</p>
+            <p>L'univers des fruits et légumes est en pleine transformation, notamment grâce aux avancées numériques qui
+              améliorent la production, la distribution et la consommation de ces produits essentiels. Voici un aperçu
+              des tendances et des innovations dans ce domaine.</p>
+          </div>
+          <div class="apropos">
+            <a href="#offres" class="btn btn-outline-primary">Nos offres <i class="fa fa-thin fa-plus"></i></a>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <img src="img/image 9.avif" class="img-fluid rounded-5" alt="" >
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--Section Nos qualité-->
+  <section class="mb-5" >
+    <div class="container">
+      <h2 class="fw-bold h4 text-center playwrite">Pourquoi nous choisir ?</h2>
+      <div class="row mt-4">
+        <!--col 1-->
+        <div class="col-md-3 text-center hover-zom" >
+          <img src="img/ic-qualite.png" class="img-fluid w-25 mb-3" alt="avantage1">
+          <h2 class="text-center fw-bold  h4">Qualité</h2>
+          <p>Grâce à une sélection rigoureuse de nos producteurs, un suivi méticuleux de nos récoltes et une maîtrise
+            complète des conditions de conservation, nous garantissons la qualité optimale de nos fruits et légumes.</p>
+        </div>
+        <!--col 2-->
+        <div class="col-md-3 text-center hover-zom" >
+          <img src="img/ic-hygiene.png" class="img-fluid w-25 mb-3" alt="avantage1">
+          <h2 class="text-center fw-bold  h4">Hygiène</h2>
+          <p>Grâce à l'utilisation d'outils innovants et à la pointe de la technologie, nous garantissons que nos fruits
+            et légumes respectent les normes internationales de qualité.</p>
+        </div>
+        <!--col 3-->
+        <div class="col-md-3 text-center hover-zom" >
+          <img src="img/variete.png" class="img-fluid w-25 mb-3" alt="avantage1">
+          <h2 class="text-center fw-bold  h4">Variété</h2>
+          <p>Nous proposons une gamme variée de plus d'un millier de références de fruits et légumes frais et surgelés,
+            conçue pour répondre aux besoins spécifiques de la clientèle ivoirienne.</p>
+        </div>
+        <!--col 4-->
+        <div class="col-md-3 text-center hover-zom" >
+          <img src="img/ic-prix.png" class="img-fluid w-25 mb-3" alt="avantage1">
+          <h2 class="text-center fw-bold h4">Prix</h2>
+          <p>Des prix compétitifs et stables, avec des promotions régulières et des offres exclusives tout au long de
+            l'anné</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="">
+    <div class="container">
+
+      <h2 class="fw-bold h4 text-center text-info playwrite" id="offres" >Ce que nous offrons</h2>
+      <p class="fw-bold text-center fs-3 mb-5 playwrite" >Decouvrez nos nouveauté</p>
+
+      <div class="row">
+        <!--col 1-->
+        <div class="col-md-6 mb-3">
+          <div class="card bg-info-subtle" style="height: 100%;">
+            <img src="img/image 3.avif" class="card-img-top img-fluid" alt="...">
+            <div class="card-body" >
+              <h5 class="card-title fw-bold">Nos Fruits</h5>
+              <p class="card-text align-items-center">Dans notre verger, la diversité des fruits est à la fois un régal
+                pour les yeux et une source de délices gustatifs. Des pommes croquantes aux poires juteuses, chaque
+                saison apporte son lot de saveurs uniques..</p>
+              <a href="#" class="btn btn-outline-primary">Commander</a>
+            </div>
+          </div>
+        </div>
+        <!--col 2-->
+        <div class="col-md-6 mb-3" >
+          <div class="card bg-info-subtle" style="height: 100%;">
+            <img src="img/image 7.avif" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Nos Légumes</h5>
+              <p class="card-text align-items-center">Dans notre jardin, les légumes occupent une place de choix,
+                apportant fraîcheur et saveurs à nos plats quotidiens. Nous cultivons une variété de légumes, allant des
+                tomates juteuses aux carottes croquantes, en passant par des courgettes.</p>
+              <a href="#" class="btn btn-outline-primary">Commander</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <div class="card bg-info-subtle" style="height: 100%;">
+            <img src="img/image a.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body" >
+              <h5 class="card-title fw-bold">Notre marché</h5>
+              <p class="card-text align-items-center">Notre marché est un lieu vibrant et accueillant où la fraîcheur
+                des
+                produits locaux rencontre la convivialité des échanges. Situé au cœur de la ville, il offre une vaste
+                sélection de fruits et légumes de saison, soigneusement sélectionnés pour leur qualité et leur goût.</p>
+              <a href="#" class="btn btn-outline-primary">Commander </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-3" >
+          <div class="card bg-info-subtle" style="height: 100%;">
+            <img src="img/image 5.avif" class="card-img-top img-fluid" alt="...">
+            <div class="card-body" >
+              <h5 class="card-title fw-bold">Nos vendeurs</h5>
+              <p class="card-text align-items-center">Nos vendeurs de légumes et fruits sont des artisans passionnés qui
+                s'engagent à offrir des produits frais et de qualité. Chaque jour, ils sélectionnent avec soin des
+                fruits
+                juteux et des légumes croquants, souvent issus de l'agriculture locale, pour garantir une fraîcheur
+                optimale.</p>
+              <a href="#" class="btn btn-outline-primary">Commander </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section class="mb-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-5">
+          <img src="img/champ 1.jpg" class="img-fluid rounded-5" alt="">
+        </div>
+        <div class="col-md-7">
+          <h1 class="h1 fs-4 fw-bold mb-4 playwrite" >En quoi nos champs de légumes et de fruits constituent-ils
+            votre meilleur choix ?</h1>
+          <p  data-aos-easing="linear" >Améliorez la sécurité de votre
+            marque et simplifiez vos opérations grâce à nos applications et logiciels personnalisés, dynamiques et
+            évolutifs, spécialement conçus pour le secteur des fruits et légumes.</p>
+          <p  data-aos-easing="linear" data-aos-duration="700">Découvrez nos produits frais et de
+            qualité, soigneusement sélectionnés pour répondre à vos besoins. Notre équipe d'experts est dédiée à vous
+            fournir des solutions sur mesure, en garantissant la sécurité et l'innovation dans le choix de nos fruits et
+            légumes.</p>
+          <ul class="m-0 p-3 mb-3 list" >
+            <li>Qualité Supérieure</li>
+            <li>Expertise</li>
+            <li>Support Constant </li>
+          </ul>
+          <p >Boostez votre alimentation et votre santé avec notre gamme variée de produits, tout
+            en bénéficiant d'un
+            service client exceptionnel !</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Hero section 3-->
+  <section class="mb-5 bg-primary p-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <h1 class="h1-size playwrite" >Ce qui garantit notre crédibilité ?</h1>
+          <p >Optez pour nos produits frais et savoureux, et explorez des solutions nutritionnelles
+            sur mesure, saines et
+            innovantes, adaptées à vos goûts uniques.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/palette.jpeg" class="img-fluid rounded-5" alt="" >
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!--section info-->
+  <section id="contact" class="mb-5">
+    <div class="container">
+      <div class="card contact border-0 rounded-3">
+        <div class="card-body text-white text-center">
+          <h2 class="text-center playwrite" >Intéressé par une collaboration avec nous ?</h2>
+          <p >La transformation numérique des marchés de fruits et légumes est essentielle pour
+            accroître leur
+            efficacité, leur compétitivité et leur traçabilité. Voici quelques stratégies clés pour améliorer cette
+            transformation :</p>
+          <p >Optimisez vos activités sur le marché des fruits et légumes grâce à nos services
+            informatiques de confiance. Diminuez vos coûts, accroissez votre efficacité et faites progresser votre
+            entreprise vers de nouveaux sommets avec notre soutien informatique.</p>
+          <div class="text-center">
+            <button type="button" class="btn btn-primary me-2" ><i class="fa fa-light fa-phone"></i>
+              Nous appeler</button>
+            <button type="button" class="btn btn-outline-primary" ><i
+                class="fa fa-solid fa-address-book"></i> Nous
+              contacter</button>
+          </div>
+  </section>
+
+  <!--section formulaire-->
+  <section id="contact" class="mb-5">
+    <div class="container">
+      <div class="card projet border-0 rounded-3">
+        <div class="card-body text-white text-center">
+          <h1 class="playwrite" data-aos="zoom-in-right">Voulez-vous nous soumettre votre projet ?</h1>
+          <h1 class="playwrite" data-aos="zoom-in-right">C'est par ici</h1>
+          <p data-aos="zoom-in-right">Veuillez renseigner le formlaire ci-dessous pour soumettre <br> votre demande et
+            nous vous recontacterons
+            pour des pourparlers.</p>
+          <div class="formulaire">
+            <button type="button" class="btn btn-warning" ><i class="fa fa-light fa-envelope"></i>
+              Acceder au
+              formulaire</button>
+          </div>
+  </section>
+
+
+  <!--Section informaation-->
+  <footer class="bg-light">
+    <div class="container">
+      <div class="row mt-4">
+        <!--col 1-->
+        <div class="col-md-4 text-center">
+          <p class="text-start playwhrite1">MARCHE-D'AFRIQUE, votre partenaire dans le domaine des fruits et légumes,
+            propose des
+            solutions <br> innovantes et sur mesure pour optimiser la culture et la distribution de vos produits. <br>
+            Grâce à des technologies avancées, nous transformons vos défis <br> en opportunités de succès durable dans
+            le secteur agricole.</p>
+          <p class="text-start text-primary">Suivez-nous sur : <i class="fa fa-brands fa-instagram"></i> <i
+              class="fa fa-brands fa-facebook"></i> <i class="fa fa-brands fa-square-youtube"></i> <i
+              class="fa fa-brands fa-instagram"></i> <i class="fa fa-brands fa-linkedin-in"></i></p>
+        </div>
+        <!--col 2-->
+        <div class="col-md-4">
+          <h4 class="fw-bold">Liens utiles</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-decoration-none fw-semibold"><i class="fa fa-angle-right"></i>
+                Accueil</a></li>
+            <li class="mb-2"> <a href="#about" class="text-decoration-none fw-semibold"><i
+                  class="fa fa-angle-right"></i> À propos de nous</a></li>
+            <li class="mb-2"><a href="#offres" class="text-decoration-none fw-semibold"><i
+                  class="fa fa-angle-right"></i> Ofrres</a></li>
+            <li class="mb-2"><a href="#a" class="text-decoration-none fw-semibold"><i class="fa fa-angle-right"></i>
+                Conditions d'utilisation</a></li>
+            <li class="mb-2"><a href="#a" class="text-decoration-none fw-semibold"><i class="fa fa-angle-right"></i>
+                Politique de confidentialité</a></li>
+          </ul>
+        </div>
+        <!--col 3-->
+        <div class="col-md-4 text-center">
+          <h4 class="text-center fw-bold">Contactez-Nous</h4>
+          <p class="playwhrite1">Émile et Armand Massard (Avenue)</p>
+          <section>
+            <div class="mb-4">
+              <button type="button" class="btn btn-outline-success playwhrite1"><i class="fa fa-thin fa-envelope"></i>
+                plusabrahamyao@gmail.com</button>
+            </div>
+            <div>
+              <button type="button" class="btn btn-outline-danger"><i class="fa fa-solid fa-phone playwhrite1"></i>
+                (+225) 07 070
+                744 54</button>
+            </div class="mb-4">
+          </section>
+        </div>
+        <div class="bas text-lg-center text-light fw-semibold bg-primary p-3 rounded-5 mb-5 playwrite2">© 2024 LHN
+          e-TECH, Inc. Tous droits réservés</div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: false,
+      offset: 100
+    });
+  </script>
+
+</body>
+
+</html>

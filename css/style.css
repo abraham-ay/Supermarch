@@ -1,0 +1,110 @@
+*{
+    font-family: "Roboto Flex", serif; 
+}
+.nav-style{
+    margin-bottom: 5rem;
+}
+.img1 {
+    width: 7rem;
+    margin-bottom: 7rem;
+}
+/*style pour notre section hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh; 
+    background: linear-gradient(rgba(0,0,0, 0.8), rgb(0, 0, 0, 0.8)), url(../img/image\ 7.avif);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffff;
+    position: relative;
+}
+.list {
+    list-style-type:circle ;
+}
+.h1-size {
+    font-size: 4rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: .5;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+.contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.87)), url(../img/super.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+}
+
+.projet {
+    background: linear-gradient(rgb(5, 102, 248), rgba(5, 102, 248, 0.575)), url(../img/Projet.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+}
+.hover-zom{ 
+    transition: all .5 ease;
+}
+.hover-zom:hover img {
+    width: 200px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .3);
+}
+.hover-zom:hover{
+    transform: translateY(-10px);
+}
+.playwrite{
+    font-family: "Caveat", serif;
+}
+.playwhrite1{
+    font-family: "IM Fell French Canon", serif;
+}
+.playwhrite2{
+    font-family: "Fjalla One", serif;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 120vh;
+    }
+    
+    .h1-size {
+        font-size: 1.4rem;
+    }
+       
+    }
+    .offre{ 
+        font-size: 1rem;
+    }
+    .bas{ 
+        text-align: center;
+        margin-top: 20px;
+    }
+    .apropos {
+        margin: 1rem;
+        text-align: center;
+    }
+    .nav { 
+        margin: 1rem;
+        display: block;
+        text-align: center;
+    }
+    .formulaire{
+        margin: 1rem;
+        text-align: center;
+    }
