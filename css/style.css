@@ -69,15 +69,8 @@
     transform: translateY(-10px);
 }
 .playwrite{
-    font-family: "Caveat", serif;
+    font-family: "Work Sans", serif;
 }
-.playwhrite1{
-    font-family: "IM Fell French Canon", serif;
-}
-.playwhrite2{
-    font-family: "Fjalla One", serif;
-}
-
 @media (max-width: 768px) {
     .hero {
         height: 120vh;
